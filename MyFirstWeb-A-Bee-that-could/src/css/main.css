@@ -10,7 +10,7 @@ body {
   position: absolute;
 }
 .beree {
-  background: red url('../img/bee.png');
+  background: red url("../img/bee.png");
   height: 100%;
   width: 100%;
 }
