@@ -1,6 +1,7 @@
 html,
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  background-color: #242b2e;
 }
 .menu-shadow {
   height: 100%;
@@ -10,9 +11,12 @@ body {
   position: absolute;
 }
 .beree {
-  background: red url("../img/bee.png");
+  background: red url('../img/bee.png');
   height: 100%;
   width: 100%;
+}
+.beree img {
+  display: block;
 }
 .header {
   background-color: white;
