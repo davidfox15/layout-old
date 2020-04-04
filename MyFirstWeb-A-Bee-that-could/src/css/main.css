@@ -1,0 +1,94 @@
+html,
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.menu-shadow {
+  height: 100%;
+  width: 20px;
+  background: linear-gradient(to right, rgba(36, 43, 46, 0.9) 8%, rgba(36, 43, 46, 0));
+  box-shadow: none;
+  position: absolute;
+}
+.beree {
+  background: red url('../img/bee.png');
+  height: 100%;
+  width: 100%;
+}
+.header {
+  background-color: white;
+  font-size: 32px;
+  font-weight: 400;
+  color: #364048;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 46px;
+}
+.menu {
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #242b2e;
+}
+.menu li {
+  margin: 1px;
+  margin-bottom: 0px;
+  text-align: right;
+  list-style: none;
+  background-color: #30383c;
+}
+.menu li:hover {
+  background-color: #fec000;
+}
+.menu a {
+  padding: 24px;
+  display: block;
+  color: white;
+}
+.menu a:hover {
+  text-decoration: none;
+  color: white;
+}
+.mini-menu {
+  background-color: #242b2e;
+  text-align: right;
+  padding: 25px;
+  font-size: 13px;
+}
+.mini-menu-logo {
+  background-image: url("../img/bee.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.mini-menu-logo h3 {
+  padding-right: 45px;
+  color: #ffd500;
+}
+.mini-menu li {
+  padding: 5px 0;
+  list-style: none;
+}
+.mini-menu li:first-child {
+  color: white;
+}
+.mini-menu a {
+  color: #4b5153;
+}
+.mini-menu a:hover {
+  text-decoration: none;
+  color: #ffd500;
+}
+.footer-inf {
+  width: 100%;
+  text-align: right;
+  padding-right: 25px;
+  background-color: #242b2e;
+  border-top: 1px solid dark;
+  color: white;
+  font-size: 12px;
+}
+.footer-inf span {
+  color: #4b5153;
+  display: block;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
