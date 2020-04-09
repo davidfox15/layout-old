@@ -269,7 +269,7 @@ body {
   .nav {
     margin-right: inherit;
   }
-  .logo {
+  .footer-logo {
     margin-top: 20px;
     order: 3;
   }
@@ -289,9 +289,34 @@ body {
     background-size: 400px;
     padding: 30px;
   }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
   .input-adress {
-    margin: 20px auto;
+    width: 80%;
     order: 3;
-    flex: 1;
+    margin-top: 20px;
+  }
+  .input-search {
+    flex-basis: 0.5;
+  }
+  .buttons {
+    margin-top: 20px;
+  }
+  .restaurant-header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nav {
+    margin-right: inherit;
+    margin-left: inherit;
+  }
+  .nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
   }
 }
