@@ -161,7 +161,9 @@ body {
          .card-buttons {
             margin-top: 20px;
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
+            justify-content: center;
          }
          .button-icon {
             margin-right: 0;
@@ -338,6 +340,10 @@ body {
    .card {
       flex-basis: 76%;
    }
+   .card-img {
+      width: 100%;
+      object-fit: contain;
+   }
    .promo {
       background-position: center right -200px;
       background-size: 400px;
@@ -373,5 +379,12 @@ body {
          margin: 0;
          padding: 0;
       }
+   }
+   .button-primary {
+      margin-right: 0;
+   }
+   .card-price-bold {
+      margin-right: 32px;
+      margin-left: 32px;
    }
 }
