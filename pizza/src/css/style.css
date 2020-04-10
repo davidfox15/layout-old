@@ -278,6 +278,113 @@ body {
 .nav li:first-child {
   margin-left: 0;
 }
+.modal {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.modal-window {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 700px;
+  height: 552px;
+  border-radius: 5px;
+  margin: auto;
+  padding: 40px 45px;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+.modal-close {
+  font-size: 36px;
+  border: none;
+  background-color: transparent;
+}
+.modal-body {
+  padding-top: 48px;
+}
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.is-open {
+  display: flex;
+}
+.food-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #8c8c8c;
+  margin-bottom: 15px;
+}
+.food-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+}
+.food-price {
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  margin-right: 47px;
+}
+.count {
+  display: flex;
+  align-items: center;
+}
+.counter-button {
+  width: 41px;
+  height: 32px;
+  border: 1px solid #40a9ff;
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+.counter {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+.footer-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-buttons .button-primary {
+  margin-right: 18px;
+}
+.pricetag {
+  padding: 15px 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  background-color: #262626;
+}
 @media (max-width: 1200px) {
   .container {
     max-width: 1000px;
