@@ -105,6 +105,11 @@ body {
   font-size: 36px;
   line-height: 42px;
 }
+.restaurant-header .card-info {
+  margin-right: auto;
+  padding-left: 40px;
+  margin-top: 0;
+}
 .cards {
   display: flex;
   align-items: flex-start;
@@ -118,6 +123,7 @@ body {
   border-radius: 7px;
   margin-bottom: 30px;
   overflow: hidden;
+  text-decoration: none;
 }
 .card-img {
   width: 384px;
@@ -138,6 +144,17 @@ body {
   font-size: 24px;
   line-height: 32px;
   color: #000000;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.card-title-reg {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
 }
 .card-tag {
   background: #262626;
@@ -151,6 +168,35 @@ body {
   margin-top: 10px;
   display: flex;
   align-items: center;
+}
+.card-info-reg {
+  display: block;
+}
+.card-info-reg .card-buttons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.card-info-reg .button-icon {
+  margin-right: 0;
+  margin-left: 6px;
+}
+.card-price-bold {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  margin-left: 32px;
+}
+.ingredients {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: scroll;
+  overflow-x: hidden;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #8c8c8c;
 }
 .rating {
   color: #ffc107;
@@ -307,6 +353,7 @@ body {
   .restaurant-header {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .nav {
     margin-right: inherit;

@@ -91,6 +91,11 @@ body {
       font-size: 36px;
       line-height: 42px;
    }
+   .card-info {
+      margin-right: auto;
+      padding-left: 40px;
+      margin-top: 0;
+   }
 }
 .cards {
    display: flex;
@@ -107,6 +112,7 @@ body {
    border-radius: 7px;
    margin-bottom: 30px;
    overflow: hidden;
+   text-decoration: none;
    &-img {
       width: 384px;
       height: 250px;
@@ -126,6 +132,17 @@ body {
       font-size: 24px;
       line-height: 32px;
       color: #000000;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: scroll;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      &-reg {
+         font-style: normal;
+         font-weight: normal;
+         font-size: 24px;
+         line-height: 32px;
+      }
    }
    &-tag {
       background: #262626;
@@ -139,7 +156,37 @@ body {
       margin-top: 10px;
       display: flex;
       align-items: center;
+      &-reg {
+         display: block;
+         .card-buttons {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+         }
+         .button-icon {
+            margin-right: 0;
+            margin-left: 6px;
+         }
+      }
    }
+   &-price-bold {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 32px;
+      margin-left: 32px;
+   }
+}
+.ingredients {
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: scroll;
+   overflow-x: hidden;
+
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 21px;
+   color: #8c8c8c;
 }
 .rating {
    color: #ffc107;
@@ -314,6 +361,7 @@ body {
    .restaurant-header {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
    }
    .nav {
       margin-right: inherit;
