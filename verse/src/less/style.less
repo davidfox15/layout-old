@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap&subset=cyrillic");
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
+   @media (max-width: 600px) {
+      object-position: 65% 50%;
+   }
    position: fixed;
    left: 0;
    top: 0;
@@ -10,25 +13,24 @@
    height: 100%;
    z-index: -1;
 }
-.cont {
-   h3 {
-      font-family: "Ubuntu", sans-serif;
-   }
-   font-family: "Comfortaa", cursive;
-   width: 100%;
+.h {
    height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 18px;
 }
 .content {
-   margin-right: 500px;
    padding: 30px 10px;
    border-radius: 2px;
    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
    background: rgba(255, 255, 255, 0.7);
    width: 300px;
+   font-size: 18px;
+   text-align: center;
+   h3 {
+      font-family: "Ubuntu", sans-serif;
+   }
+   p {
+      margin-top: 10px;
+      font-family: "Comfortaa", cursive;
+   }
 }
 
 /* Add some content at the bottom of the video/page */

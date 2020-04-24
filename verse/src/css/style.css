@@ -22,25 +22,29 @@
   height: 100%;
   z-index: -1;
 }
-.cont {
-  font-family: "Comfortaa", cursive;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
+@media (max-width: 600px) {
+  #myVideo {
+    object-position: 65% 50%;
+  }
 }
-.cont h3 {
-  font-family: "Ubuntu", sans-serif;
+.h {
+  height: 100vh;
 }
 .content {
-  margin-right: 500px;
   padding: 30px 10px;
   border-radius: 2px;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
   background: rgba(255, 255, 255, 0.7);
   width: 300px;
+  font-size: 18px;
+  text-align: center;
+}
+.content h3 {
+  font-family: "Ubuntu", sans-serif;
+}
+.content p {
+  margin-top: 10px;
+  font-family: "Comfortaa", cursive;
 }
 /* Add some content at the bottom of the video/page */
 /* Style the button used to pause/play the video */
