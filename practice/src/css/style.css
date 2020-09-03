@@ -159,8 +159,7 @@ a:hover {
   padding: 3rem;
 }
 .section-title {
-  margin: 10rem 0 13rem;
-  font-family: "Proxima Nova_bold", sans-serif;
+  margin: 5rem 0 13rem;
   font-size: 3.6rem;
   text-align: center;
 }
@@ -299,6 +298,91 @@ a:hover {
   outline: none;
   padding-top: 2rem;
   height: inherit;
+}
+.feedback {
+  background-color: #ededed;
+  position: relative;
+}
+.feedback .slick-prev {
+  background-color: #286b0a;
+}
+.feedback .slick-prev:before {
+  content: url("../img/icons/arrow-left.svg");
+}
+.feedback .slick-next {
+  background-color: #286b0a;
+}
+.feedback .slick-next:before {
+  content: url("../img/icons/arrow-right.svg");
+}
+.feedback-slider {
+  box-shadow: 6px 18px 10px 0px rgba(0, 0, 0, 0.11);
+  background-color: #f5f5f5;
+  padding: 5.5rem 6rem;
+}
+@media (max-width: 992px) {
+  .feedback-slider {
+    padding: 5.5rem 2rem;
+  }
+}
+.feedback-description {
+  font-size: 1.6rem;
+}
+.feedback-comment {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.feedback-comment img {
+  border-radius: 50%;
+}
+.feedback-comment .media-body {
+  display: block;
+}
+.feedback-comment h5 {
+  font-size: 2rem;
+}
+.feedback-comment__text {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 2px solid #70c849;
+}
+.feedback-hand {
+  position: absolute;
+  left: 5rem;
+  bottom: 0;
+  max-width: 25%;
+}
+@media (max-width: 792px) {
+  .feedback-hand {
+    display: none;
+  }
+}
+.feedback-user {
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  background-color: white;
+  padding: 5rem 6rem;
+}
+@media (max-width: 992px) {
+  .feedback-user {
+    padding: 5rem 2rem;
+  }
+}
+.feedback-user label {
+  color: #565656;
+  background-color: white;
+  border: 1rem solid white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 1.3rem;
+}
+.feedback-user form {
+  margin-top: 4rem;
+}
+.feedback-user button {
+  width: 50%;
 }
 @media (max-width: 992px) {
   .main {
